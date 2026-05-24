@@ -3,7 +3,7 @@ function About() {
         <section id="about" className = "container text-center mt-5">
             <div className="container">
                 <h2 className="fw-bold mb-4">About Me</h2>
-                <p className="text-muted fs-5">Computer Science Student | Aspiring Software Engineer</p>
+                <p className="text-muted fs-5">Curious, collaborative, and driven to solve meaningful problems.</p>
             </div>
 
         {/* Two Column Layout: Growth Mindset vs Learning Approach */}   
@@ -12,14 +12,10 @@ function About() {
           {/* Left Column: Who I Am */}
             <div className="col-lg-6 d-flex flex-column justify-content-center">
                 <h3 className="fw-bold mb-4">My Approach to Learning</h3>
-                <p className="text-muted leading-relaxed">I am a Computer Science Student, driven by curiosity and committed to 
-                    continuous growth. While my long-term curiosity is to understand working of
-                    <strong> backend systems</strong> and applications, I am currently building my 
-                    skills in frontend development using React and Bootstrap.</p>
+                <p className="text-muted leading-relaxed">I’m driven by curiosity and a growing interest in both frontend and backend development. Through React and UI/UX design, I enjoy building clean, user-focused digital experiences while learning how modern web applications are designed and developed.</p>
 
                 <p className="text-muted leading-relaxed">
-                    I am an adaptable learner who enjoys the process of picking up new technologies. I thrive in team environments where I can collaborate on collective plans, take on personal responsibility for my tasks, and actively learn from the perspectives and skills of my peers.
-                </p>
+                    My exposure to enterprise IT environments and technical problem-solving has strengthened my adaptability, critical thinking, and practical approach to learning.</p>
             </div>
 
 
@@ -35,7 +31,7 @@ function About() {
                     <span className="badge bg-primary p-2 fs-6">01</span>
                     <div>
                       <h5 className="fw-bold mb-1">Pre-planning & Task Focus</h5>
-                      <p className="text-muted mb-0 small">I prefer to understand the problem scope and prioritize tasks before rushing into code, helping me break down new academic challenges logically into manageable steps.</p>
+                      <p className="text-muted mb-0 small">I prefer to understand the problem scope and prioritize tasks before rushing into code, helping me approachchallenges logically and efficiently.</p>
                     </div>
                   </div>
                 </div>
@@ -48,7 +44,7 @@ function About() {
                     <span className="badge bg-success p-2 fs-6">02</span>
                     <div>
                       <h5 className="fw-bold mb-1">Learning From Others</h5>
-                      <p className="text-muted mb-0 small">I value collaborative group settings because they offer a shared environment to exchange constructive feedback and grow together.</p>
+                      <p className="text-muted mb-0 small">I value collaborative environments that encourage constructive feedback, shared learning, and continuous improvement.</p>
                     </div>
                   </div>
                 </div>
@@ -56,12 +52,12 @@ function About() {
 
               {/* Point 3: Accountability */}
               <div className="col-12">
-                <div className="card p-3 border-0 shadow-sm">
+                <div className="card implement op-3 border-0 shadow-sm">
                   <div className="d-flex gap-3 align-items-start">
                     <span className="badge bg-dark p-2 fs-6">03</span>
                     <div>
                       <h5 className="fw-bold mb-1">Responsibility & Adaptability</h5>
-                      <p className="text-muted mb-0 small">I take ownership of my assigned work, stay accountable to deadlines, and adapt quickly when project goals pivot or require new tools.</p>
+                      <p className="text-muted mb-0 small">I take ownership of my work, stay accountable to deadlines, and adapt quickly when priorities or project requirements change.</p>
                     </div>
                   </div>
                 </div>
