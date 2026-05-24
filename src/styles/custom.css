@@ -261,3 +261,58 @@
 .navbar-nav {
   gap: 50px;
 }
+
+.about-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  background: #ffffff;
+}
+
+.about-title {
+  font-size: 3.2rem;
+
+  font-weight: 800;
+
+  color: #111827;
+
+  margin-bottom: 24px;
+}
+
+.about-layout {
+  align-items: flex-start;
+}
+
+.about-content {
+  padding-right: 40px;
+}
+
+.about-content h3 {
+  font-size: 2.2rem;
+
+  font-weight: 700;
+
+  margin-bottom: 32px;
+
+  color: #111827;
+}
+
+.about-content p {
+  font-size: 1.08rem;
+
+  line-height: 1.9;
+
+  color: #4b5563;
+
+  margin-bottom: 28px;
+}
+
+.about-content p {
+  font-size: 1.08rem;
+
+  line-height: 1.9;
+
+  color: #4b5563;
+
+  margin-bottom: 28px;
+}

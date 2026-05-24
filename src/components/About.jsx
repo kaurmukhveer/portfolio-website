@@ -1,20 +1,20 @@
 function About() {
     return (
-        <section id="about" className = "container text-center mt-5">
+        <section id="about" className = "about-section">
             <div className="container">
-                <h2 className="fw-bold mb-4">About Me</h2>
+                <h2 className="about-title">About Me</h2>
                 <p className="text-muted fs-5">Curious, collaborative, and driven to solve meaningful problems.</p>
             </div>
 
         {/* Two Column Layout: Growth Mindset vs Learning Approach */}   
-        <div className="row g-5 align-items-stretch mt-4">
+        <div className="row about-layout">
 
           {/* Left Column: Who I Am */}
-            <div className="col-lg-6 d-flex flex-column justify-content-center">
-                <h3 className="fw-bold mb-4">My Approach to Learning</h3>
-                <p className="text-muted leading-relaxed">I’m driven by curiosity and a growing interest in both frontend and backend development. Through React and UI/UX design, I enjoy building clean, user-focused digital experiences while learning how modern web applications are designed and developed.</p>
+            <div className="about-content">
+                <h3>My Approach to Learning</h3>
+                <p>I’m driven by curiosity and a growing interest in both frontend and backend development. Through React and UI/UX design, I enjoy building clean, user-focused digital experiences while learning how modern web applications are designed and developed.</p>
 
-                <p className="text-muted leading-relaxed">
+                <p>
                     My exposure to enterprise IT environments and technical problem-solving has strengthened my adaptability, critical thinking, and practical approach to learning.</p>
             </div>
 
