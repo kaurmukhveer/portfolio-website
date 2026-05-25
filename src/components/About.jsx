@@ -1,19 +1,23 @@
 function About() {
     return (
         <section id="about" className = "about-section">
+           <div className="container">
             <div className="about-header text-center">
                 <h2 className="about-title">About Me</h2>
                 <p className="about-subtitle">Curious, collaborative, and driven to solve meaningful problems.</p>
             </div>
 
         {/* Two Column Layout: Growth Mindset vs Learning Approach */}   
-        <div className="row g-5 about-content">
+        <div className="row g-5 about-layout">
 
           {/* Left Column: Who I Am */}
             <div className="col-lg-6">
               <div className="about-content">
-                <h3>My Approach to Learning</h3>
-                <p>I’m driven by curiosity and a growing interest in both frontend and backend development. Through React and UI/UX design, I enjoy building clean, user-focused digital experiences while learning how modern web applications are designed and developed.</p>
+                <div className="about-heading-group">
+                  <div className="accent-line"></div>
+                    <h3>My Approach to Learning</h3>
+                </div>
+                <p>I’m driven by curiosity and a growing interest in both <strong>frontend</strong> and <strong>backend</strong> development. Through <strong>React</strong> and UI/UX design, I enjoy building clean, user-focused digital experiences while learning how modern web applications are designed and developed.</p>
 
                 <p>
                     My exposure to enterprise IT environments and technical problem-solving has strengthened my adaptability, critical thinking, and practical approach to learning.</p>
@@ -24,8 +28,13 @@ function About() {
           {/* Right Column: How I Learn & Work */}
           <div className="col-lg-6">
             <div className = "work-section">
-            <h3 className="work-section-title">How I Work & Adapt</h3>
-            
+               <div className="work-heading-group">
+                <div className="accent-line"></div>
+                  <h3 className="work-section-title">
+                    How I Work & Adapt
+                  </h3>
+               </div>
+
             <div className="work-cards">
 
               {/* Point 1: Pre-planning */}
@@ -75,7 +84,7 @@ function About() {
         </div>
         
       </div>
-
+    </div>
     </section>
   );
 }
