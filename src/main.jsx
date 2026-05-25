@@ -6,10 +6,13 @@ import './index.css'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/custom.css'
+import { FaFirefoxBrowser } from 'react-icons/fa'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <BrowserRouter>
     <App /> 
+    </BrowserRouter>
   </StrictMode>,
 )
