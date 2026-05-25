@@ -237,7 +237,7 @@
 }
 
 
-.custom-nav-link {
+.custom-nav-links {
   font-size: 1.05rem;
 
   font-weight: 500;
@@ -249,7 +249,7 @@
   position: relative;
 }
 
-.custom-nav-link:hover {
+.custom-nav-links:hover {
   color: #4f46e5 !important;
 }
 
@@ -740,6 +740,10 @@
   transition:
     background 0.3s ease,
     transform 0.3s ease;
+
+  display: inline-block;
+
+  text-decoration: none;
 }
 
 

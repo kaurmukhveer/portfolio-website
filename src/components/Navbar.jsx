@@ -12,9 +12,7 @@ function Navbar() {
                     <li className="nav-item">
                         <a className="nav-link custom-nav-link" href="#projects">Projects</a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link custom-nav-link" href="#contact">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>

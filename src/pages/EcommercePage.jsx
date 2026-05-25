@@ -1,3 +1,5 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
 function EcommercePage() {
 
   return (
@@ -11,6 +13,12 @@ function EcommercePage() {
         <p>
           This project will be developed later in the semester.
         </p>
+         <Link
+          to="/"
+          className="project-btn mt-4"
+        >
+          Back to Home
+        </Link>
 
       </div>
 
@@ -18,4 +26,4 @@ function EcommercePage() {
   )
 }
 
-export default ServicePage
+export default EcommercePage

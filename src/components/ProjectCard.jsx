@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function ProjectCard(props) {
 
   return (
@@ -26,9 +28,12 @@ function ProjectCard(props) {
             {props.description}
           </p>
 
-          <button className="project-btn">
+          <Link
+            to={props.route}
+            className="project-btn"
+          >
             {props.status}
-          </button>
+          </Link>
 
         </div>
 
@@ -38,4 +43,4 @@ function ProjectCard(props) {
   );
 }
 
-export default ProjectCard;
+export default ProjectCard

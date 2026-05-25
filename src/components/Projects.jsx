@@ -27,6 +27,7 @@ function Projects() {
               title={project.title}
               description={project.description}
               status={project.status}
+              route={project.route}
 
             />
           ))}

@@ -1,3 +1,5 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
 function ServicePage() {
 
   return (
@@ -11,6 +13,14 @@ function ServicePage() {
         <p>
           This project will be developed later in the semester.
         </p>
+         <Link
+          to="/"
+          className="project-btn mt-4"
+        >
+          Back to Home
+        </Link>
+
+        
 
       </div>
 
