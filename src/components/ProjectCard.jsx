@@ -31,15 +31,23 @@ function ProjectCard(props) {
           <div className="project-buttons">
 
 
-  <a
-    href={props.prototypeUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="project-btn"
-  >
-    View Prototype
-  </a>
-</div>
+            {props.prototypeUrl ? (
+            <a
+              href={props.prototypeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+            >
+              View Prototype
+            </a>
+          ) : (
+            <button
+              className="project-btn"
+              disabled
+            >
+              Coming Soon
+            </button>
+          )}
 
         </div>
 
