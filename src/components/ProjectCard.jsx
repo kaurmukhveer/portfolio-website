@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 function ProjectCard(props) {
   return (
     <div className="col-md-6">
