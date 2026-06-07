@@ -7,7 +7,7 @@ const projects = [
       "A React-based lawn care booking system featuring customer booking and service-provider management workflows.",
     image:
       "https://images.unsplash.com/photo-1521791136064-7986c2920216",
-    prototypeUrl: "https://greencare-lawn-service-prototype.vercel.app/",
+    prototypeUrl: "https://greencare-lawn-service.vercel.app/",
     route: "/service-site"
   },
 
