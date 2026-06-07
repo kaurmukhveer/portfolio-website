@@ -1,9 +1,7 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function ProjectCard(props) {
-
   return (
-
     <div className="col-md-6">
 
       <div className="project-card">
@@ -30,24 +28,25 @@ function ProjectCard(props) {
 
           <div className="project-buttons">
 
-
             {props.prototypeUrl ? (
-            <a
-              href={props.prototypeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-btn"
-            >
-              View Prototype
-            </a>
-          ) : (
-            <button
-              className="project-btn"
-              disabled
-            >
-              Coming Soon
-            </button>
-          )}
+              <a
+                href={props.prototypeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
+              >
+                View Prototype
+              </a>
+            ) : (
+              <button
+                className="project-btn"
+                disabled
+              >
+                Coming Soon
+              </button>
+            )}
+
+          </div>
 
         </div>
 
@@ -57,4 +56,4 @@ function ProjectCard(props) {
   );
 }
 
-export default ProjectCard
+export default ProjectCard;
