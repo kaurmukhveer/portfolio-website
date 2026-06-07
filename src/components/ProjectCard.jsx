@@ -29,12 +29,7 @@ function ProjectCard(props) {
           </p>
 
           <div className="project-buttons">
-  <Link
-    to={props.route}
-    className="project-btn"
-  >
-    View Case Study
-  </Link>
+
 
   <a
     href={props.prototypeUrl}
