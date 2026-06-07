@@ -26,6 +26,7 @@ function Projects() {
               category={project.category}
               title={project.title}
               description={project.description}
+              prototypeUrl={project.prototypeUrl}
               status={project.status}
               route={project.route}
 

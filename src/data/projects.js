@@ -1,13 +1,13 @@
 const projects = [
   {
     id: 1,
-    title: "Service Website",
+    title: "GreenCare Lawn Services",
     category: "UI/UX Design",
     description:
-      "A responsive service-based website design focused on usability and accessibility.",
+      "A React-based lawn care booking system featuring customer booking and service-provider management workflows.",
     image:
       "https://images.unsplash.com/photo-1521791136064-7986c2920216",
-    status: "Coming Soon",
+    prototypeUrl: "https://greencare-lawn-service-prototype.vercel.app/",
     route: "/service-site"
   },
 
