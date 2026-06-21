@@ -1,4 +1,4 @@
-import bloomMemoryImg from "../assets/bloom-memory.png";
+import bloomMemoryImg from "../assets/Zen_Garden_Image.png";
 
 const projects = [
   {
