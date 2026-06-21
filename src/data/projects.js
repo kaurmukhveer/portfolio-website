@@ -1,3 +1,5 @@
+import bloomMemoryImg from "../assets/bloom-memory.png";
+
 const projects = [
   {
     id: 1,
@@ -12,16 +14,16 @@ const projects = [
   },
 
   {
-    id: 2,
-    title: "Memory Game",
-    category: "Interactive UI",
-    description:
-      "A modern memory game interface focused on interaction and responsive gameplay.",
-    image:
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420",
-    status: "Coming Soon",
-    route: "/memory-game"
-  },
+  id: 2,
+  title: "Bloom Memory",
+  category: "UI/UX Design & React Development",
+  description:
+    "A React-based memory matching game featuring multiple difficulty levels, themed gameplay paths, responsive design, and visual design principles including Gestalt laws, visual hierarchy, and accessibility considerations.",
+  image:
+    bloomMemoryImg,
+  prototypeUrl: "	https://bloom-memory.vercel.app/",
+  route: "/memory-game"
+},
 
   {
     id: 3,
