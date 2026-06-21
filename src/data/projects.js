@@ -18,7 +18,7 @@ const projects = [
   title: "Bloom Memory",
   category: "UI/UX Design & React Development",
   description:
-    "A React-based memory matching game featuring two gameplay paths: a calming nature-inspired experience and an adventure-themed challenge mode. Players select difficulty levels and themed environments while testing memory through card matching mechanics. The interface incorporates visual hierarchy, Gestalt principles, responsive design, feedback systems, and theme-based user experiences.",
+    "A React-based memory matching game featuring multiple difficulty levels, themed gameplay paths, responsive design, and visual design principles including Gestalt laws, visual hierarchy, and accessibility considerations.",
   image:
     bloomMemoryImg,
   prototypeUrl: "	https://bloom-memory.vercel.app/",
