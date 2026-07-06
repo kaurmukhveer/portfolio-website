@@ -33,7 +33,7 @@ const projects = [
       "An e-commerce experience emphasizing clean product presentation and navigation.",
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
-    status: "Coming Soon",
+      prototypeUrl: "https://technest-ecommerce-azure.vercel.app/",
     route: "/ecommerce"
   },
 
