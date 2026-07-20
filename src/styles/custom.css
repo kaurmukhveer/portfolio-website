@@ -826,3 +826,13 @@ html {
   scroll-behavior: smooth;
 }
 
+
+a.hero-btn-primary,
+a.hero-btn-primary:visited,
+a.hero-btn-primary:hover,
+a.hero-btn-primary:focus,
+a.hero-btn-primary:active {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
