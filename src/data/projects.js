@@ -1,4 +1,7 @@
-import bloomMemoryImg from "../assets/Zen_Garden_Image.png";
+import bloomMemoryImg from "../assets/BloomMemoryGameImage.png";
+import serviceSiteImg from "../assets/GreenCareLawnServiceSite.png";
+import ecommerceImg from "../assets/TechNestEcommerceSite.png";
+import analyticsImg from "../assets/CanadianFoodPriceExplorer.png";
 
 const projects = [
   {
@@ -8,7 +11,7 @@ const projects = [
     description:
       "A React-based lawn care booking system featuring customer booking and service-provider management workflows.",
     image:
-      "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+      serviceSiteImg,
     prototypeUrl: "https://greencare-lawn-service.vercel.app/",
     route: "/service-site"
   },
@@ -32,8 +35,8 @@ const projects = [
     description:
       "An e-commerce experience emphasizing clean product presentation and navigation.",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
-      prototypeUrl: "https://technest-ecommerce-azure.vercel.app/",
+      ecommerceImg,
+    prototypeUrl: "https://technest-ecommerce-azure.vercel.app/",
     route: "/ecommerce"
   },
 
@@ -44,7 +47,7 @@ const projects = [
     description:
       "A dashboard UI concept designed for analytics, insights, and data-driven decisions.",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      analyticsImg,
     prototypeUrl: "https://food-price-dashboard.vercel.app/",
     route: "/analytics"
   }
