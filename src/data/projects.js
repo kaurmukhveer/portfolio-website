@@ -45,7 +45,7 @@ const projects = [
       "A dashboard UI concept designed for analytics, insights, and data-driven decisions.",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-    status: "Coming Soon",
+    prototypeUrl: "https://food-price-dashboard.vercel.app/",
     route: "/analytics"
   }
 ];
