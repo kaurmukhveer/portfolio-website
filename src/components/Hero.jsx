@@ -45,8 +45,8 @@ function Hero(){
           {/* Call to Action Buttons */}
           <div className="hero-buttons d-flex gap-3 mt-4 justify-content-center">
 
-          <button className = "btn hero-btn-primary">View My Work</button>
-          <button className = "btn hero-btn-secondary">Contact Me</button>
+          <a href="#projects" className="btn hero-btn-primary"> View My Work </a>
+          <a href="mailto:mmukh079@uottawa.ca" className="btn hero-btn-secondary"> Contact Me </a>
           
           </div>
 
