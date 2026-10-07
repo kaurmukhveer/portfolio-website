@@ -1,16 +1,24 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My front-end portfolio, built with React and Bootstrap. It showcases my UI/UX and React projects from SEG 3125 (Analysis and Design of User Interfaces) at the University of Ottawa.
 
-Currently, two official plugins are available:
+For my backend, testing, and CI work, see my [GitHub profile](https://github.com/kaurmukhveer).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live site:** https://mukhveer-portfolio.vercel.app/
 
-## React Compiler
+## What's inside
+- Hero, About, Projects, and Contact sections, each a reusable React component
+- A reusable **Project Card** component, rendered from a separate project-data file with `.map()`, so new projects are added as data, not markup
+- Responsive layout using Flexbox, the Bootstrap grid, and media queries
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Design approach
+Applies Nielsen Norman Group principles: visual hierarchy, whitespace, contrast, alignment, proximity, and consistency. The Hero and About sections were redesigned several times after reviewing spacing and readability.
 
-## Expanding the ESLint configuration
+## Tech stack
+React · JavaScript (ES6) · Bootstrap 5 · HTML5 · CSS3 · Vite · deployed on Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+```bash
+npm install
+npm run dev
+```
