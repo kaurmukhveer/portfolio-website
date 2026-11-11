@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar">
         <div className="container">
-            <a className="navbar-brand nav-logo" href="#">Mukhveer</a>
+            <a className="navbar-brand nav-logo" href="#">Mukhveer Kaur</a>
 
             <div>
                 <ul className="navbar-nav d-flex flex-row gap-3">
@@ -11,6 +11,9 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link custom-nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link custom-nav-link" href="#contact">Contact</a>
                     </li>
                     
                 </ul>
